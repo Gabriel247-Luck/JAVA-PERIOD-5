@@ -17,18 +17,19 @@ class Main {
     }
 
     double FtoC(double fahrenheit) {
-        return (fahrenheit - 32) * 5.0 / 9.0;
+       double result = (fahrenheit - 32) * 5.0 / 9.0;
+        return result;
     }
-
     double sphereVolume(double radius) {
-        return (4.0 / 3.0) * Math.PI * radius * radius * radius;
+        double result =  (4.0 / 3.0) * Math.PI * radius * radius * radius;
+         return result;
     }
-
     double coneVolume(double radius, double height) {
-        return (1.0 / 3.0) * Math.PI * radius * radius * height;
+       double result =  (1.0 / 3.0) * Math.PI * radius * radius * height;
+        return result;
     }
-
     double distance(double x1, double y1, double x2, double y2) {
-        return Math.sqrt( (x2 - x1) * (x2 - x1) +(y2 - y1) * (y2 - y1));
+       double result =  Math.sqrt( (x2 - x1) * (x2 - x1) +(y2 - y1) * (y2 - y1));
+        return result;
     }
 }
