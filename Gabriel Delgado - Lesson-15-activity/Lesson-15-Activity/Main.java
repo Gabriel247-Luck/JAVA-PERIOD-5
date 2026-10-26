@@ -4,13 +4,8 @@ class Main {
         (new Main()).init();
     }
 
-    void print(Object o) {
-        System.out.println(o);
-    }
-
-    void printt(Object o) {
-        System.out.print(o);
-    }
+    void print(Object o){System.out.println(o);}
+    void printt(Object o){System.out.print(o);}
 
     void init() {
         System.out.println(spaces(10) + "DONE");
